@@ -100,4 +100,5 @@
             </tbody>
         </table>
      </body>
+     <p><a href="reha9@github.io">For More Info on Albums Click Here!</a></p>
 </html>
