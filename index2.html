@@ -48,5 +48,27 @@ The punk sensibilities of 5 Seconds Of Summer have been hung and left to dry on 
         <li>Stay</li>
         <li>Moving Along</li>
     </ul>
+ 
+<p>Select your favorite album:</p>
+<form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Youngblood">Youngblood<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Spotify Singles">Spotify Singles<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Sounds Good Feels Good">Sounds Good Feels Good<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" 
+ 
+
+  Your favorite browser is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+</script>
 </body>
 </html>
+
+
+
+
